@@ -9,7 +9,7 @@ What is it useful for
 
 SocketIO is an abstraction layer over several methods to maintain a connection
 between the client and the server otherwise said long-polling this includes
-`websockets <http://www.w3.org/TR/websockets/>`.
+`websockets <http://www.w3.org/TR/websockets/>`_.
 
 Checkout `what are websockets? <http://talk.webplatform.org/forums/index.php/2290/what-are-websockets>`_.
 
