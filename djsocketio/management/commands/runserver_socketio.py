@@ -17,7 +17,7 @@ namespaces = dict()
 for app in settings.INSTALLED_APPS:
     try:
         live = import_module('%s.live' % app, 'live')
-    except:
+    except ImportError:
         pass
     else:
         Namespace = live.Namespace
