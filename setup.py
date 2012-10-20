@@ -19,7 +19,7 @@ __doc__ = long_description()
 
 setup(
     name='django-socketio-alt',
-    version='0.1',
+    version='0.2',
     url='https://github.com/amirouche/django-socketio-alt',
     license='LGPL',
     author='Amirouche Boubekki',
