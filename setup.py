@@ -26,7 +26,7 @@ setup(
     author_email='amirouche.boubekki@gmail.com',
     description='Django + Gevent + SocketIO = Awesome client/server interactions',
     long_description=__doc__,
-    py_modules=['django_socketio_alt'],
+    py_modules=['djsocketio'],
     zip_safe=False,
     platforms='any',
     install_requires=['django', 'gevent-socketio'],

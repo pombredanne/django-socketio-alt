@@ -116,7 +116,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'django_socketio_alt',
+    'djsocketio',
     'djchatio',
 )
 
