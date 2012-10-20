@@ -21,7 +21,7 @@ setup(
     name='django-socketio-alt',
     version='0.1',
     url='https://github.com/amirouche/django-socketio-alt',
-    license='MIT',
+    license='LGPL',
     author='Amirouche Boubekki',
     author_email='amirouche.boubekki@gmail.com',
     description='Django + Gevent + SocketIO = Awesome client/server interactions',
