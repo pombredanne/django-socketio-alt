@@ -16,7 +16,7 @@ Checkout `what are websockets? <http://talk.webplatform.org/forums/index.php/229
 Documentation
 -------------
 
-Add ``django_socketio_alt`` to your ``INSTALLED_APPS`` in ``settings.py``
+Add ``djsocketio`` to your ``INSTALLED_APPS`` in ``settings.py``
 
 Create a ``live.py`` in an application of your project. django-socketio-alt
 will discover every ``live.py`` that are in applications installed against
@@ -49,7 +49,7 @@ app is registred as ``spam.egg.chat``, the namespace's name will be ``chat``.
 Connection to this namespace in the client will be done using the following 
 code::
 
-  var socket = io.connect('http://localhost:8000/djchatio');
+  var socket = io.connect('http://localhost:8000/chat');
 
 Now everything you need to know is in 
 `Gevent SocketIO documentation <http://gevent-socketio.readthedocs.org>`_ 
