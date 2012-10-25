@@ -13,6 +13,8 @@ between the client and the server otherwise said long-polling this includes
 
 Checkout `what are websockets? <http://talk.webplatform.org/forums/index.php/2290/what-are-websockets>`_.
 
+Looking for an example application, checkout `hivi.mx <https://github.com/amirouche/hivi.mx>`_.
+
 Documentation
 -------------
 
