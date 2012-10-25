@@ -19,14 +19,18 @@ __doc__ = long_description()
 
 setup(
     name='django-socketio-alt',
-    version='0.2',
+    version='0.2.1',
     url='https://github.com/amirouche/django-socketio-alt',
     license='LGPL',
     author='Amirouche Boubekki',
     author_email='amirouche.boubekki@gmail.com',
     description='Django + Gevent + SocketIO = Awesome client/server interactions',
     long_description=__doc__,
-    py_modules=['djsocketio'],
+    packages=[
+        'djsocketio',
+        'djsocketio.management',
+        'djsocketio.management.commands'
+    ],
     zip_safe=False,
     platforms='any',
     install_requires=['django==1.4.2', 'gevent-socketio'],
