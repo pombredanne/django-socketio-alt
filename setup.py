@@ -33,7 +33,7 @@ setup(
     ],
     zip_safe=False,
     platforms='any',
-    install_requires=['django==1.4.2', 'gevent-socketio'],
+    install_requires=['django>=1.4.2', 'gevent-socketio'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
