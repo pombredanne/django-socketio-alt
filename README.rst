@@ -95,3 +95,9 @@ Authors
 
 - `Mrjmad <https://github.com/mrjmad/>`_
 - `Amirouche <https://github.com/amirouche/>`_
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/amirouche/django-socketio-alt/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
